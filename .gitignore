@@ -26,6 +26,7 @@ coverage
 out/
 build
 dist
+pb_data/
 
 
 # Debug
@@ -35,4 +36,5 @@ yarn-error.log*
 
 # Misc
 .DS_Store
+.ssh/
 *.pem

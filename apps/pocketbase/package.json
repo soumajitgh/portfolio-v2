@@ -1,0 +1,10 @@
+{
+  "name": "pocketbase",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "db:serve": "go run . serve --http=127.0.0.1:8090",
+    "build": "go build -o dist/pocketbase .",
+    "lint": "go vet ./..."
+  }
+}
